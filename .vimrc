@@ -39,6 +39,7 @@ Plugin 'The-NERD-Commenter'
 Plugin 'ZenCoding.vim'
 Plugin 'css_color.vim'
 Plugin 'jnwhiteh/vim-golang'
+Plugin 'vim-scripts/Colour-Sampler-Pack'
 
 "
 " filetype plugin indent on     " required
@@ -65,10 +66,10 @@ if has('gui_running')
     set guioptions-=T
     set t_Co=256
 	set guifont=Consolas\ 10   " 设置字体  
-	colorscheme desert     " 设置背景主题  
+	colorscheme candy     " 设置背景主题  
 else
 	set guifont=Consolas:h10:cANSI   " 设置字体  
-	colorscheme desert     " 设置背景主题  
+	colorscheme candy     " 设置背景主题  
 endif
 
 autocmd InsertLeave * se nocul  " 用浅色高亮当前行  
