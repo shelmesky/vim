@@ -40,6 +40,7 @@ Plugin 'ZenCoding.vim'
 Plugin 'css_color.vim'
 Plugin 'jnwhiteh/vim-golang'
 Plugin 'vim-scripts/Colour-Sampler-Pack'
+Plugin 'Lokaltog/vim-powerline'
 
 "
 " filetype plugin indent on     " required
